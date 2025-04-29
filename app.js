@@ -7,7 +7,7 @@ const cookieParser = require('cookie-parser');
 
 
 const corsOption = {
-    origin: 'http://localhost:5173',
+    origin: "https://clientgiri.netlify.app",
     method: ['get', 'post', 'delete', 'put', 'patch'],
     credentials: true,
 }
